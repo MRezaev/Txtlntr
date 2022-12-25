@@ -8,7 +8,7 @@ int main(int argc, char **argv)
     while ((opt = getopt(argc, argv, "oah")) != -1) {
         switch(opt) {
         case 'o':
-            int ch1, ch, kol, sum;
+            double ch1, ch, kol, sum;
             cout << "Numbers is (3-5): " << endl;
             cin >> kol;
             if (kol >= 3 and kol <= 5) {
